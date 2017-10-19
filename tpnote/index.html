@@ -6,32 +6,37 @@
 
 </head>
 <body>
-	<FORM id="form" method="post" onsubmit="return inserTableau()">
-		<label id="nom">Nom</label>
+	<FORM id="form" method="post" >
+		<label>Nom</label>
 		<input type="text" name="nom" id="nom">
 
-		<label id="prenom">Prenom</label>
+		<label>Prenom</label>
 		<input type="text" name="prenom" id="prenom">
 
-		<label id="email">Email</label>
+		<label>Email</label>
 		<input type="email" name="email" id="email">
 
-		<label id="valider">Validez vos informations</label>
-		<input type="submit" name="nom" id="nom">
+		<label>Validez vos informations</label>
+		<input type="button" value="Validation" onclick="verifForm()">
 
 	</FORM>
 
 	<table id="televes">
+		
 		<tr>
-			
+			<th>#</th>
+			<th>NOM</th>
+			<th>PRENOM</th>
+			<th>EMAIL</th>
 		</tr>
 		
+			
 
 
 
 
-
-
+		
+			
 
 	</table>
 
